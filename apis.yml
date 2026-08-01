@@ -1,7 +1,26 @@
 aid: portea
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/portea.png
 name: Portea
-description: 'Portea is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Portea Medical is India''s leading home healthcare provider, delivering
+  clinical care to patients at home across 40+ cities. Services include physiotherapy,
+  nursing care, doctor consultations, medical equipment rental, trained attendants,
+  diagnostic and lab tests, counselling, and specialized programs for eldercare,
+  mother and baby care, diabetes, critical care, and vaccination. Portea was surfaced
+  as a portfolio company of Accel and added to the API Evangelist network. As a
+  consumer home-healthcare operator it publishes no public developer API, OpenAPI,
+  or developer portal at this time; this profile captures its identity and a live
+  domain-security probe.'
 url: https://raw.githubusercontent.com/api-evangelist/portea/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Healthcare
+- Home Healthcare
+- Telemedicine
+- Diagnostics
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.portea.com
+  url: https://www.portea.com
+- type: Blog
+  url: https://www.portea.com/blogs/
+- type: About
+  url: https://www.portea.com/about-us/
+- type: PrivacyPolicy
+  url: https://www.portea.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.portea.com/terms-conditions/
+- type: DomainSecurity
+  url: security/portea-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
